@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Yanone+Kaffeesatz&display=swap');
+
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.yanone-kaffeesatz {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jost{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* =================================================== */
+/* =================================================== */
+/* Inicio Header */
+/* =================================================== */
+/* =================================================== */
+
+/* Navigation-menu */
+/* ================= */
+/* ================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center; 
+    color: white;
+    padding: 5px 20%;
+    gap: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.li_select{
+    color: #05C680;
+}
+
+.h2-navigation{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.ul-nav{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding: 0;
+    
+}
+
+.ul-nav a:hover{
+    color: #05C680;
+}
+
+.li-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icon-email-box{
+    background-color: #272c2c;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.icon-email-box:hover{
+    background-color: #1f1f1f;
+    transition: 0.3s;
+}
+
+.nav-li-git{
+    padding-left: 5%;
+}
+
+.nav-li-linkedin{
+    padding-left: 5%;
+}
+
+.banner_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20%;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.h2-banner-header{
+    font-weight: 400;
+    background-color: #05C680;
+    text-align: center;
+    padding: 3% 0%;
+    padding-top: 5%; 
+    font-size: larger;
+}
+
+.h3-banner-header{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.p-banner-header{
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #767474;
+    font-size: small;
+}
+
+.banner_header-div-text{
+    padding: 12% 0px;
+}
+
+.banner_header-div-image{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* hiperlinks style */
+/* ================= */
+/* ================= */
+
+.a_contate-me{
+    color: #05C680;
+    text-decoration: underline;
+    float: left;
+    font-size: x-large;
+    padding-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* =================================================== */
+/* =================================================== */
+/* Inicio Main */
+/* =================================================== */
+/* =================================================== */
+
+
+.main-section-cards-projects{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2C2C;
+    padding: 110px 20%;
+    gap: 10%;
+}
+
+.section-cards-projects-div{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30em;
+}
+
+.card-project{
+    background-color: #383838;
+    border-radius: 7px;
+    padding: 5% 5%;
+    color: white;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+}
+
+.card-project:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+}
+
+.svg-box{
+    float: right;
+}
+
+.h2-card-projects{
+    margin: 0;
+    font-weight: 300;
+    color: #05C680;
+    cursor: default;
+}
+
+.p-card-projects{
+    margin-top: 0;
+    color: #595959;
+    font-weight: 300;
+    cursor: default;
+    margin-bottom: 8px;
+}
+
+.a-card-projects{
+    text-decoration: underline;
+    float: left;
+}
+
+.introducao-text-div{
+    width: 30em;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.p-introducao-text-div{
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.h2-introducao-text-div{
+    margin-bottom: 0;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    font-size: xx-large;
+}
+
+.h3-introducao-text-div{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #D7D7D7;
+    margin-top: 3px;
+    width: 80%;
+    
+}
+
+.text-introducao-text-div{
+    color: #656565;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+
+/* =================================================== */
+/* =================================================== */
+
+.main-image-projects{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2C2C;
+    padding: 30px 20%;
+    gap: 10%;
+}
+
+.project-images-div{
+    background-color: #3C3D3D;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-images-div-1{
+    background-color: #3C3D3D;
+    border-radius: 22px;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div-main-image-projects{
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div-cards-main-image-projects{
+    width: 30em;
+}
+
+.h2-div-main-image-projects{
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+
+}
+
+.p-div-main-image-projects{
+    margin-bottom: 0px;
+    color: #494949;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 3px;
+
+}
+
+.a-div-main-image-projects{
+    color: #07EB98;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font: xx-large;
+    text-decoration: underline;
+}
+
+.text-div-main-image-projects{
+    text-align: center;
+    color: #5F6060;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.main-feedbacks{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 20%;
+}
+
+.h2-main-feedbacks{
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.div-main-feedbacks{
+    background-color: #2A2B2B;
+    padding: 0px 3%;
+    color: white;
+    border-radius: 8px;
+}
+
+.p-div-main-feedbacks{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.box-div-stars-main-feedbacks{
+    display: flex;
+    padding-top: 2%;
+}
+
+.p-box-div-stars-main-feedbacks{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    color: #424242;
+    font-size: small;
+}
+
+.pessoas_feedback{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    border-bottom: 1px solid #2A2A2A;
+}
+
+
+.pessoas_feedback-div{
+    display: flex;
+    padding-bottom: 2%;
+    width: 25%;
+}
+
+.h2-pessoas_feedback-div{
+    margin: 0;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+}
+
+.p-pessoas_feedback-div{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #676767;
+    font-size: large;
+}
+
+.span-pessoas_feedback-div{
+    color: #05C680;
+}
+
+.img-feedback{
+    border-radius: 50%;
+}
+
+#card_pessoa1{
+}
+
+#card_pessoa2{
+    border-bottom: 1px solid #05C680;
+    justify-content: center;
+    align-items: center;
+}
+
+#card_pessoa3{
+    justify-content: end;
+    align-items: end;
+}
+/* =================================================== */
+/* =================================================== */
+
+.section-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 1%;
+}
+/* =================================================== */
+/* =================================================== */
+/* Inicio Footer */
+/* =================================================== */
+/* =================================================== */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20%;
+    background-color: #2B2C2C;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.footer-section h2{
+    font-weight: 400;
+}
+
+.footer-section-div-incio{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    
+}
+
+.h2-footer-section{
+    padding-bottom: 25%;
+    font-family: "Jost";   
+    margin-top: 0px;
+}
+
+.footer-section-div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-section-div-ul{
+    padding-bottom: 15%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    gap: 5px;
+    font-size: 1.3em;
+    font-family: "Jost", sans-serif;
+}
+
+.p-footer-section{
+    margin-bottom: 0;
+    color: #555555;
+}
+
+.span-footer-section{
+    padding-left: 7%;
+    color: #555555;
+    font-size: smaller;
+}
+
+.h2-footer-section-div-container{
+    font-size: xx-large;
+}
