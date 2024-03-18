@@ -1,7 +1,9 @@
-<h1 align="center"> Meu portfolio </h1>
+## Projeto de Portfolio
 
-## Em desenvolvimento!
-
-Linguagues utilizadas:
-- HTML
+## Linguagens utilizadas:
+- HTML 
 - CSS
+
+## Páginas criadas:
+-  Inicio
+-  Produtos
