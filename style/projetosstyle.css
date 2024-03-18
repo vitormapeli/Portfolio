@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Yanone+Kaffeesatz&display=swap');
+
+
+body::-webkit-scrollbar {
+    width: 12px;            
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #3C3D3D;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #07EB98;    
+    border-radius: 20px;       
+    border: 3px solid #3C3D3D; 
+    cursor: pointer;
+  }
+
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.yanone-kaffeesatz {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jost{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* =================================================== */
+/* =================================================== */
+/* Inicio Header */
+/* =================================================== */
+/* =================================================== */
+
+/* Navigation-menu */
+/* ================= */
+/* ================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center; 
+    color: white;
+    padding: 5px 20%;
+    gap: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.li_select{
+    color: #05C680;
+}
+
+.h2-navigation{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.ul-nav{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding: 0;
+    
+}
+
+.ul-nav a:hover{
+    color: #05C680;
+}
+
+.li-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icon-email-box{
+    background-color: #272c2c;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.icon-email-box:hover{
+    background-color: #1f1f1f;
+    transition: 0.3s;
+}
+
+.nav-li-git{
+    padding-left: 5%;
+}
+
+.nav-li-linkedin{
+    padding-left: 5%;
+}
+
+.banner_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20%;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.h2-banner-header{
+    font-weight: 400;
+    background-color: #05C680;
+    padding-top: 2.2%; 
+    text-align: center;
+    font-size: larger;
+    width: 12em;
+    height: 23px;
+}
+
+.h3-banner-header{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+
+.p-banner-header{
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #767474;
+    font-size: small;
+}
+
+.banner_header-div-text{
+    padding: 12% 0px;
+    width: 25em;
+}
+
+.banner_header-div-image{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* hiperlinks style */
+/* ================= */
+/* ================= */
+
+.a_contate-me{
+    color: #05C680;
+    text-decoration: underline;
+    float: left;
+    font-size: x-large;
+    padding-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* =================================================== */
+/* =================================================== */
+/* Inicio Main */
+/* =================================================== */
+/* =================================================== */
+
+
+
+.main-section1{
+    background-color: #2B2C2C;
+    padding: 110px 20%;
+}
+
+.main-section2{
+    padding: 110px 20%;
+}
+
+.h2-main-titulo{
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.ul-main-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.li-main-projetos{
+    display: flex;
+    background-color: #383838;
+    color: white;
+    margin-bottom: 2%;
+    padding: 30px 10px;
+    border-radius: 7px;
+    position: relative;
+}
+
+#img-main-projetos:hover{
+    max-width: 300px;
+    max-height: 220.64px;
+}
+
+#img-main-projetos-img2{
+    height: 220.64px;
+    left: 0;
+    margin-left: 10px;
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 99;
+}
+
+
+
+
+.div-main-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h2-li-main-projetos{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.desc-li-main-projetos{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    margin: 0px;
+    color: #D7D7D7;
+}
+
+.a-li-main-projetos{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    color: #656565;
+}
+
+.main-ordem-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div-order{
+    background-color: #2B2C2C;
+    padding: 7px 1%;
+    color: white;
+    display: flex;
+    border-radius: 7px;
+}
+
+.main-group-botton{
+    display: flex;
+    padding-left: 5%;
+    gap: 5%;
+}
+
+.main-group-botton button{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: #4D4D4D;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.p-main-div{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    margin: 0.5%;
+}
+
+.h2-main-projetos{
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+
+.button-selectd{
+    color: #05C680 !important;
+}
+
+.card-projeto-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #05C680;
+}
+
+.card-projeto-main p{
+    color: #656565;
+    margin-top: 0px;
+}
+
+.card-projeto-main h2{
+    color: white;
+    margin-bottom: 0;
+}
+
+.btn-main-mostrar-mais{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+}
+
+.div-main-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =================================================== */
+/* =================================================== */
+/* Inicio Footer */
+/* =================================================== */
+/* =================================================== */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20%;
+    background-color: #2B2C2C;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.footer-section h2{
+    font-weight: 400;
+}
+
+.footer-section-div-incio{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    
+}
+
+.h2-footer-section{
+    padding-bottom: 25%;
+    font-family: "Jost";   
+    margin-top: 0px;
+}
+
+.footer-section-div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-section-div-ul{
+    padding-bottom: 15%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    gap: 5px;
+    font-size: 1.3em;
+    font-family: "Jost", sans-serif;
+}
+
+.footer-section-div-ul a:hover{
+    color: #05C680;
+}
+
+.p-footer-section{
+    margin-bottom: 0;
+    color: #555555;
+}
+
+.span-footer-section{
+    padding-left: 7%;
+    color: #555555;
+    font-size: smaller;
+}
+
+.h2-footer-section-div-container{
+    font-size: xx-large;
+}
+
+.ul-footer-icons{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    list-style: none;
+}
