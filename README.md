@@ -7,3 +7,8 @@
 ## Páginas criadas:
 -  Inicio
 -  Produtos
+
+
+## Páginas que faltam?
+- Sobre mim
+- Contatos
