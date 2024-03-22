@@ -2,13 +2,14 @@
 
 ## Linguagens utilizadas:
 - HTML 
-- CSS
+- CS
+- Js
 
 ## Páginas criadas:
 -  Inicio
--  Produtos
+-  Projetos
+-  Fale comigo
 
 
 ## Páginas que faltam?
 - Sobre mim
-- Contatos
