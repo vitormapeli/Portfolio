@@ -13,5 +13,6 @@ Páginas criadas:
 - Sobre mim
 - Fale comigo
 
-Responsividade | Em progresso
-:--------- | :------:
+> [!WARNING]
+> Em progresso| Responsividade
+
