@@ -14,3 +14,4 @@ Páginas criadas:
 - Fale comigo
 
 Responsividade | Em progresso
+:--------- | :------:
