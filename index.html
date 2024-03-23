@@ -21,7 +21,7 @@
                     <a href="falecomigo.html"> Fale comigo </a>
                 </li>
                 <li>
-                    <a href="URL_DA_SUA_PÁGINA_INICIAL"> Sobre mim </a>
+                    <a href="sobremim.html"> Sobre mim </a>
                 </li>
             </ul>
 
@@ -55,22 +55,22 @@
         <section class="main-section-cards-projects">
             <div class="section-cards-projects-div">
                 <div class="card-project">   
-                    <img src="src/imagem_2024-03-15_100448753-removebg-preview.png" width="30px" class="svg-box">                  
+                    <img src="src/icons/code.svg" width="30px" class="svg-box" >                  
                     <h2 class="h2-card-projects">Back-End</h2>
                     <p class="p-card-projects">Criação de Back-End em projetos</p>
-                    <a class="a-card-projects">Total projects</a>
+                    <a class="a-card-projects" href="projetos.html">Total projects</a>
                 </div>
                 <div class="card-project">
-                    <img src="src/imagem_2024-03-15_100448753-removebg-preview.png" width="30px" class="svg-box">                  
-                    <h2 class="h2-card-projects">Back-End</h2>
-                    <p class="p-card-projects">Criação de Back-End em projetos</p>
-                    <a class="a-card-projects">Total projects</a>
+                    <img src="src/icons/light.svg" width="30px" class="svg-box">                  
+                    <h2 class="h2-card-projects-1">Front-End</h2>
+                    <p class="p-card-projects">Criação de Front-end em projetos</p>
+                    <a class="a-card-projects" href="projetos.html">Total projects</a>
                 </div>
                 <div class="card-project">
-                    <img src="src/imagem_2024-03-15_100448753-removebg-preview.png" width="30px" class="svg-box">                  
-                    <h2 class="h2-card-projects">Back-End</h2>
-                    <p class="p-card-projects">Criação de Back-End em projetos</p>
-                    <a class="a-card-projects" href="">Total projects</a>
+                    <img src="src/icons/database.svg" width="30px" class="svg-box">                  
+                    <h2 class="h2-card-projects-1">Banco de dados</h2>
+                    <p class="p-card-projects">Criação de Banco de dados em projetos</p>
+                    <a class="a-card-projects" href="projetos.html">Total projects</a>
                 </div>
             </div>
 
@@ -92,8 +92,9 @@
                     <h2 class="h2-div-main-image-projects">Últimos trabalhos</h2>
                     <p class="p-div-main-image-projects">Soluções perfeitas para o seu negócio</p>
                 </div>
-                <div class="project-images-div"><img src="src/imagem_2024-03-15_100448753-removebg-preview.png" alt="Imagem projeto1"></div>
-
+                <div class="project-images-div-container">
+                    <div class="project-images-div"><img src="src/Projetos/AgileDragon_mobile.jpeg" alt="Imagem projeto1"></div>
+                </div>
                 <div>
                     <a class="a-div-main-image-projects" href="">TODOS OS PROJETOS</a>
                     <p class="text-div-main-image-projects">Alguns projetos estão sujeitos a acordos de confidencialidade  e, portanto, não posso divulgar detalhes adicionais.</p>
@@ -101,7 +102,7 @@
             </div>
 
             <div class="div-cards-main-image-projects">
-                <div class="project-images-div-1"><img src="src/imagem_2024-03-15_100448753-removebg-preview.png" alt="Imagem projeto1"></div>
+                <div class="project-images-div"><img src="src/imagem_2024-03-15_100448753-removebg-preview.png" alt="Imagem projeto1"></div>
                 <div class="project-images-div"><img src="src/imagem_2024-03-15_100448753-removebg-preview.png" alt="Imagem projeto1"></div>
             </div>
         </section>
@@ -272,7 +273,7 @@
                                 <a href="falecomigo.html"> Fale comigo </a>
                             </li>
                             <li>
-                                <a href="URL_DA_SUA_PÁGINA_INICIAL"> Sobre mim </a>
+                                <a href="sobremim.html"> Sobre mim </a>
                             </li>
                         </ul>
                     </div>
@@ -297,3 +298,41 @@
     </footer>
 </body>
 </html>
+
+<script>
+    const card_pessoa1 = document.getElementById("card_pessoa1")
+    const card_pessoa2 = document.getElementById("card_pessoa2")
+    const card_pessoa3 = document.getElementById("card_pessoa3")
+
+    card_pessoa1.addEventListener("click", function(){
+        card_pessoa1.style.borderBottom = "1px solid #05C680";
+        card_pessoa2.style.borderBottom = "0";
+        card_pessoa3.style.borderBottom = "0";
+        localStorage.setItem("Feedback", "1");
+    });
+
+    card_pessoa2.addEventListener("click", function(){
+        card_pessoa2.style.borderBottom = "1px solid #05C680";
+        card_pessoa1.style.borderBottom = "0";
+        card_pessoa3.style.borderBottom = "0";
+        localStorage.setItem("Feedback", "2");
+    });
+
+    card_pessoa3.addEventListener("click", function(){
+        card_pessoa3.style.borderBottom = "1px solid #05C680";
+        card_pessoa1.style.borderBottom = "0";
+        card_pessoa2.style.borderBottom = "0";
+        localStorage.setItem("Feedback", "3");
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const Feedback = localStorage.getItem("Feedback");
+    if (Feedback) {
+        // Remove todas as classes e adiciona a classe ao botão selecionado
+        card_pessoa1.style.borderBottom = "0";
+        card_pessoa2.style.borderBottom = "0";
+        card_pessoa3.style.borderBottom = "0";
+        document.getElementById("card_pessoa" + Feedback).style.borderBottom = "1px solid #05C680";
+    }
+});
+</script>
