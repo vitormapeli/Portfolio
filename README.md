@@ -14,5 +14,5 @@ Páginas criadas:
 - Fale comigo
 
 > [!WARNING]
-> Em progresso| Responsividade
+> Em progresso Responsividade
 
