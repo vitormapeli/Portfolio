@@ -217,7 +217,7 @@ a{
 }
 
 .card-project:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(3, 218, 100, 0.596) 0px 0px 100px 0px;
     transition: 0.3s;
 }
 
@@ -229,6 +229,13 @@ a{
     margin: 0;
     font-weight: 300;
     color: #05C680;
+    cursor: default;
+}
+
+.h2-card-projects-1{
+    margin: 0;
+    font-weight: 300;
+    color: #ffffff;
     cursor: default;
 }
 
@@ -297,15 +304,7 @@ a{
     border-radius: 22px;
     display: flex;
     flex-direction: column;
-}
-
-.project-images-div-1{
-    background-color: #3C3D3D;
-    border-radius: 22px;
-    margin-bottom: 10%;
-    display: flex;
-    flex-direction: column;
-
+    width: 75%;
 }
 
 .div-main-image-projects{
@@ -313,10 +312,20 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 60px;
 }
+
+.project-images-div-container{
+    display: flex;
+}
+
+
 
 .div-cards-main-image-projects{
     width: 30em;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .h2-div-main-image-projects{
@@ -408,6 +417,7 @@ a{
     display: flex;
     padding-bottom: 2%;
     width: 25%;
+    cursor: pointer;
 }
 
 .h2-pessoas_feedback-div{
@@ -433,9 +443,6 @@ a{
     border-radius: 50%;
 }
 
-#card_pessoa1{
-}
-
 #card_pessoa2{
     border-bottom: 1px solid #05C680;
     justify-content: center;
@@ -446,16 +453,86 @@ a{
     justify-content: end;
     align-items: end;
 }
+
+.h2-main-habilidades{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.p-main-habilidades{
+    margin-top: 0;
+    color: #434343;
+    font-size: larger;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+
 /* =================================================== */
 /* =================================================== */
 
-.section-icons{
+.section-habilidades{
     display: flex;
+    flex-direction: column;
+    padding: 2% 20%;
+    color: white;
+}
+
+.section-div-habilidades{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.div-habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+
+.div-top-habilidades:hover{
+    box-shadow: rgba(3, 218, 99, 0.15) 0px 48px 100px 0px;
+}
+.p-titulo-habilidades{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color: #5F6060;
+    transition: 0.3s;
+}
+
+.div-top-habilidades{
+    background-color: #2B2C2C;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding-bottom: 1%;
+    padding: 20% 0%;
 }
+
+.div-top-habilidades p{
+    margin-bottom: 0;
+    color: #5F6060;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.div-habilidades:hover p{
+    color: #07EB98;
+    transition: 0.3s;
+}
+
 /* =================================================== */
 /* =================================================== */
 /* Inicio Footer */
@@ -532,4 +609,146 @@ a{
     justify-content: center;
     display: flex !important;
     list-style: none;
+    padding: 0px;
+}
+
+/* =================================================== */
+/* =================================================== */
+/* Inicio edição icones */
+/* =================================================== */
+/* =================================================== */
+
+.icon-html {
+    transition: fill 0.3s; /* Adicione uma transição suave */
+}
+
+#icone-html:hover .htmllado1{
+    fill: #E44D26;
+    transition: fill 0.3s;
+}
+
+#icone-html:hover .htmllado2{
+    fill: #F16529;
+    transition: fill 0.3s;
+}
+
+#icone-html:hover .htmlletra{
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.htmllado1, .htmllado2, .htmlletra{
+    transition: fill 0.3s;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.icon-container-css{
+    transition: fill 0.3s;
+}
+
+#icone-css:hover .csslado1{
+    fill: #0277BD;
+    transition: fill 0.3s;
+}
+
+#icone-css:hover .csslado2{
+    fill: #039BE5;
+    transition: fill 0.3s;
+}
+
+#icone-css:hover .csslado3{
+    fill: #FFF;
+    transition: fill 0.3s;
+}
+
+#icone-css:hover .htmlletra{
+    fill: #EEE;
+    transition: fill 0.3s;
+}
+
+.csslado1, .csslado2, .cssletra{
+    transition: fill 0.3s;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.icon-container-js{
+    width: 75px;
+    transition: fill 0.3s;
+}
+
+#icone-js:hover .jslado1{
+    fill: #f7df1e;
+    transition: fill 0.3s;
+}
+
+
+.jslado2{
+    fill: #5F6060;
+}
+
+#icone-js:hover .jslado2{
+    fill: black;
+    transition: fill 0.3s;
+}
+
+.jslado1{
+    transition: fill 0.3s;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.icon-container-php{
+    width: 75px;
+    transition: fill 0.3s;
+}
+
+#icone-php:hover .phplado1{
+    fill: #777bb3;
+    transition: fill 0.3s;
+}
+
+#icone-php:hover .phplado2{
+    fill: #ffffff;
+    transition: fill 0.3s;
+}
+
+.phplado3, .phplado4{
+    fill: #5F6060;
+    transition: fill 0.3s;
+}
+
+#icone-php:hover .phplado3, #icone-php:hover .phplado4{
+    fill: black;
+    transition: fill 0.3s;
+}
+
+.phplado1, .phplado2, .phplado3, .phplado4{
+    transition: fill 0.3s;  
+}
+
+/* =================================================== */
+/* =================================================== */
+
+#icone-java:hover .javalado1{
+    fill: white;
+    transition: fill 0.3s;
+}
+
+#icone-java:hover .javalado2, #icone-java:hover .javalado5, #icone-java:hover .javalado6, #icone-java:hover .javalado4{
+    fill: #3174b9;
+    transition: fill 0.3s;
+}
+
+#icone-java:hover .javalado3, #icone-java:hover .javalado7{
+    fill: #ca3132;
+    transition: fill 0.3s;
+}
+
+.javalado1, .javalado2, .javalado3, .javalado4, .javalado5, .javalado6, .javalado7{
+    transition: fill 0.3s;
 }

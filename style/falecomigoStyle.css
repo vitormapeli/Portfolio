@@ -296,4 +296,5 @@ a{
     justify-content: center;
     display: flex !important;
     list-style: none;
+    padding: 0px;
 }
