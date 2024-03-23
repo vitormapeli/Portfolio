@@ -12,3 +12,5 @@ Páginas criadas:
 - Projetos
 - Sobre mim
 - Fale comigo
+
+Responsividade | Em progresso
